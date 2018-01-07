@@ -1,0 +1,11 @@
+<!--pages/me/me.wxml-->
+<view class="me-container">
+    <view class="me-userinfo">
+        <image class="me-avatar" src="{{userInfo.avatarUrl}}"></image>
+        <text class="me-name" wx:if="hasUserInfo">{{userInfo.nickName}}</text>
+    </view>
+
+    <view class="label-item" wx:for="{{labelList}}">
+        <label-item name="{{item.name}}"></label-item>
+    </view>
+</view>

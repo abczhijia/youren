@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/news/news",
+    "pages/me/me",
+    "pages/contact/contact",
+    "pages/modules/modules",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "有人",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#efefef"
+  },
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "./icons/tabbar/index.png",
+        "selectedIconPath": "./icons/tabbar/index-selected.png",
+        "text": "有人"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "iconPath": "./icons/tabbar/contact.png",
+        "selectedIconPath": "./icons/tabbar/contact-selected.png",
+        "text": "联系人"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "./icons/tabbar/news.png",
+        "selectedIconPath": "./icons/tabbar/news-selected.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "./icons/tabbar/me.png",
+        "selectedIconPath": "./icons/tabbar/me-selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "debug": true
+}

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "label-item": "./components/labelItem/labelItem"
+  }
+}

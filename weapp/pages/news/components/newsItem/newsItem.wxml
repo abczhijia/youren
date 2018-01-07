@@ -1,0 +1,7 @@
+<!--pages/news/components/newsItem/newsItem.wxml-->
+<view class="container">
+  <image class="image" src="{{image}}"></image>
+  <view class="name">{{name}}</view>
+  <view class="desc">{{desc}}</view>
+  <image class="arrow-right" src="./assets/arrow-right.png"></image>
+</view>

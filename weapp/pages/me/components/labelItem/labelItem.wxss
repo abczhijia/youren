@@ -1,0 +1,25 @@
+/* pages/me/components/labelItem/labelItem.wxss */
+.container{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20rpx;
+  height: 100rpx;
+  align-items: center;
+  background-color: #fff;
+}
+
+.name {
+  font-size: 12px;
+  color: #888;
+}
+
+
+.arrow-right{
+    position: absolute;
+    width: 50rpx;
+    height: 50rpx;
+    right: 20rpx;
+    top: 50%;
+    margin-top: -25rpx;
+}

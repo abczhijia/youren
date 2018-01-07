@@ -1,0 +1,29 @@
+<!--index.wxml-->
+<view class="container"> 
+
+    <view class="index-block">    
+        <!-- 用户信息 -->
+        <view class="index-username">Happi</view>
+
+        <!--  搜索栏 -->
+        <view class="index-searchbar">
+            <navigator url="/pages/search/search" class="index-search">搜索</navigator>
+            <image class="index-scanner" src="./assets/scanner.png"></image>
+        </view>
+
+        <view class="index-modules">
+            <navigator class="index-module" wx:for="{{modules}}" url="{{item.url}}">
+                <image class="index-module-image" src="{{item.image}}"></image>
+                <text class="index-module-text">{{item.text}}</text>
+            </navigator>
+        </view>
+    </view>
+
+    <view class="index-block">
+        <view class="index-activity" wx:for="{{teas}}">
+            <activity title="{{item.title}}" image="{{item.image}}" desc="{{item.desc}}" 
+                read-count="{{item.readCount}}" comment-count="{{item.commentCount}}">
+            </activity>
+        </view>
+    </view>
+</view>

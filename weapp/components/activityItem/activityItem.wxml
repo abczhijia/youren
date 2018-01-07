@@ -1,0 +1,10 @@
+<!--components/activityItem/activityItem.wxml-->
+<view class="container">
+    <view class="title">{{title}}</view>
+    <image wx:if="{{image}}" class="image" src="{{image}}"></image>
+    <view class="desc">{{desc}}</view>
+    <view class="bottom">
+        <text>{{readCount}}个阅读</text>
+        <text class="bottom-comment">{{commentCount}}个评论</text>
+    </view>
+</view>

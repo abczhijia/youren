@@ -1,0 +1,39 @@
+/* pages/news/components/newsItem/newsItem.wxss */
+.container{
+    position: relative;
+    height: 150rpx;
+    border-bottom: 1px solid #efefef;
+}
+.image {
+    position: absolute;
+    left: 20rpx;
+    top: 50%;
+    margin-top: -50rpx;
+    width: 100rpx;
+    height: 100rpx;
+}
+
+.name, .desc {
+    margin-left: 140rpx;
+}
+
+.name {
+    font-size: 14px;
+    color: #222;
+    padding-top: 30rpx;
+}
+
+.desc {
+    font-size: 12px;
+    color: #888;
+    margin-top: 20rpx;
+}
+
+.arrow-right{
+    position: absolute;
+    width: 50rpx;
+    height: 50rpx;
+    right: 20rpx;
+    top: 50%;
+    margin-top: -25rpx;
+}

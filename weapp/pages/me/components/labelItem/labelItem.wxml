@@ -1,0 +1,5 @@
+<!--pages/me/components/labelItem/labelItem.wxml-->
+<view class="container">
+    <text class="name">{{name}}</text>
+    <image class="arrow-right" src="./assets/arrow-right.png"></image>
+</view>

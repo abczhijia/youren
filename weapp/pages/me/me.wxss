@@ -1,0 +1,30 @@
+/* pages/me/me.wxss */
+.me-container {
+    background-color: #efefef;
+    height: 100%;
+}
+.me-userinfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40rpx;
+    background-color: #fff;
+    margin-bottom: 80rpx;
+}
+
+.me-avatar {
+    height: 120rpx;
+    width: 120rpx;
+    border-radius: 50%;
+}
+
+.me-name {
+    font-size: 14px;
+    color: #222;
+    margin-top: 20rpx;
+}
+
+.label-item{
+  margin-bottom: 30rpx;
+}

@@ -1,0 +1,4 @@
+<!--pages/news/news.wxml-->
+<view class="news-container">
+    <news-item wx:for="{{newsList}}" image="{{item.image}}" name="{{item.name}}" desc="{{item.desc}}"></news-item>
+</view>
